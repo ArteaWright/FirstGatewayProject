@@ -1,0 +1,124 @@
+/*---------- Top Page ------------  */
+h1, h2 {
+    text-align: center;
+}
+  
+h1 {
+    color: #170960;
+    margin: 5%;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0 10%;
+    font-size: 16px;
+    color:#666666;
+}
+  
+@media screen and (max-width: 450px) {
+.subject h2 {
+    margin-bottom:40%;
+}
+}
+/*----------- Explore -----------*/
+  
+.image1{
+    width:50%;
+    filter:sepia(50%);
+    margin-top:5%;
+    margin-left: 5%;
+    box-shadow: 2px 5px 5px #8c8c8c;  
+}
+  
+.image2{
+    padding-top:0;
+    width:50%;
+    height: 50%;
+    margin-left:48%;
+    filter:sepia(50%);
+    margin-top:-10%;
+    box-shadow: 2px 5px 5px #8c8c8c;
+}
+  
+.image3{
+    width:50%;
+    filter:sepia(50%);
+    margin-top:-10%;
+    box-shadow: 2px 5px 5px #8c8c8c;
+    margin-left: 5%;
+}
+    
+.image4 {
+    padding-top:0;
+    width:50%;
+    margin-left:48%;
+    filter:sepia(50%);
+    margin-top:-10%;
+    box-shadow: 2px 5px 5px #8c8c8c;
+}
+  
+.text, .text3 {
+    color:white;
+    text-align:center;
+    margin-left: 50%;
+    background-color:#00798D;
+    right:10%;
+    padding:0 10%;
+    position:relative;
+    bottom:250px;
+}
+
+.text3{  
+    background-color:#170960;
+}
+
+.text2, .text4 {
+    color:white;
+    text-align: center;
+    padding:0 10%;
+    position:relative;
+    margin-right: 50%;
+    background-color:#cccccc;
+    bottom:250px;
+    left:10%;
+}
+  
+.text,.text3 {
+    border: 1px solid;
+    box-shadow: 5px 5px 5px #595959;
+}
+  
+.text2,.text4 {
+    border: 1px solid #8c8c8c;
+    box-shadow: 2px 5px 5px #8c8c8c;
+    color:black;
+    
+}
+
+.text, .text3 a {
+    color:white;
+}
+.text a {
+    color:white;
+}
+
+.text a:hover,
+.text3 a:hover {
+    color:blue;
+}
+  
+.text2 a {
+    color: black;
+}
+
+.text2 a:hover{
+    color: blue;
+}
+
+.text4 a {
+    color: black;
+}
+
+.text4 a:hover{
+    color: blue;
+}

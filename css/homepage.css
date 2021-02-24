@@ -1,0 +1,97 @@
+/*----------------Homepage------------*/
+
+.home {
+    position: relative;
+    top: 146px;
+    font-size: 60px;
+    color:#f2f2f2;
+    text-transform:uppercase;
+    text-align:center;
+  }
+  
+  .trectangle, .brectangle{
+    height: 30px;
+    width: 100%;
+  }
+  
+  .trectangle{
+    background-color: #00798D;
+    margin-bottom: 20px;
+  }
+  
+  .brectangle {
+    background-color: #170960;
+  }
+  
+  /*---------------- Video --------------*/
+
+  .video {
+   margin:5%; 
+   display:flex;
+   justify-content: Center;
+   align-items:center;
+  }
+  
+  @media screen and (max-width: 450px) {
+  .video {
+    display:none;
+    }
+  }
+  /*------------ Homepage Paragraph -----------  */
+  section h1, section h2 {
+   text-align: center;
+   padding-bottom: 2%;
+   margin-top: 5%;
+  }
+  
+  div.paragraph {
+    background-color: #e6e6e6;
+    padding: 5%;
+  }
+  
+  .paragraph p {
+    border: 1px;
+    font-size: 20px;
+    margin: 0 10%;
+    padding-bottom: 5%;
+    color: #666666;
+    text-align: center;
+  }
+  
+  .paragraph a{
+    color: #170960;
+  }
+  
+  .paragraph a:hover {
+    color: #00798D;
+  }
+  /*-------- Slideshow-------  */
+  
+  .slideshow {
+    width:900px;
+    height: 500px;
+    background: url(https://glass1st.net/wp-content/uploads/2017/01/Johnson-C-Smith-4.jpg);
+    margin: 5% auto;
+    animation: slide 30s infinite;
+  }
+  
+  @keyframes slide{
+    50% {
+      background: url(https://th.bing.com/th/id/OIP.5IG-CaggJeb9uI9U4BKwTwHaEK?w=333&h=&c=7&o=5&dpr=2&pid=1.7);
+    }
+    50% {
+      background: url(http://www.wbtv.com/resizer/K75tkfnJ_PMEQVtbbHyNJVHvlas=/1200x0/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/SUYTOQTNFFFTLNOZIIFOTD3TLU.jpg);
+    }
+    75% {
+      background: url(https://qcitymetro.com/wp-content/uploads/2020/06/Beatties-Ford-Art-1-2.jpeg);
+    }
+   100% {
+      background: url(http://www.charlotteobserver.com/news/local/news-columns-blogs/retro-charlotte/jljk9a/picture11011895/ALTERNATES/FREE_960/br4.jpg);
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+  .slideshow {
+      display:none;
+    }
+  }

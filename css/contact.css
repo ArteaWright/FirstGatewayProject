@@ -1,0 +1,57 @@
+/*---------- Top page ----------  */
+h1, h2 {
+    text-align: center;
+}
+  
+h1 {
+    color: #170960;
+    margin: 5%;
+    font-size: 50px;
+}
+  
+h2 {
+    margin: 0 10%;
+    color:#666666;
+    font-size: 16px;
+}
+  
+  
+/*------------Contact Page-------*/
+  
+form {
+    Font-family: Verdana;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding:5%;
+}
+  
+input[type=text], input[type=email],
+input[type=tel],textarea {
+    width: 100%;
+    padding: 12px;
+    border: solid #e6e6e6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize:vertical;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #00798D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 2%;
+}
+    
+input[type=submit]:hover {
+    background-color: #170960;
+    padding: 6px 10px;
+    transition: all ease-in-out 250ms;
+}
+  
+  
